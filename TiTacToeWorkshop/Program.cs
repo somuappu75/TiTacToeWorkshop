@@ -6,6 +6,7 @@ namespace TiTacToeWorkshop
     {
         static void Main(string[] args)
         {
+            //addind player and computer
             Console.WriteLine("Welcome to TICTocToe Problem");
             char[] board = BoardCreation();
             char PlayerLetter = PlayerInput();
