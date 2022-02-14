@@ -4,15 +4,13 @@ using System.Text;
 
 namespace TiTacToeWorkshop
 {
-   public class Input
+   public class InputFRomPlayers
     {
-        private static char PlayerInput()
+         private static char PlayerUserLetter()
         {
-            //adding player computer choose
-            Console.WriteLine("Choose Letter X oR O: ");
+            Console.WriteLine("Choose your Letter: ");
             string userLetter = Console.ReadLine();
             return char.ToUpper(userLetter[0]);
         }
-
     }
 }

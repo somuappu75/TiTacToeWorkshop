@@ -9,11 +9,12 @@ namespace TiTacToeWorkshop
             //addind player and computer
             Console.WriteLine("Welcome to TICTocToe Problem");
             char[] board = BoardCreation();
-            char PlayerLetter = PlayerInput();
-            char computer_Letter = (PlayerLetter == 'X') ? 'O' : 'X';
+            char userLetter = PlayerUserLetter();
+            char computerLetter = (userLetter == 'X') ? 'O' : 'X';
+
         }
 
-        private static char PlayerInput()
+        private static char PlayerUserLetter()
         {
             throw new NotImplementedException();
         }
