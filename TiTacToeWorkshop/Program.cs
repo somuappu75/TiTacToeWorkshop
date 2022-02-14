@@ -6,7 +6,13 @@ namespace TiTacToeWorkshop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to TICTocToe Problem");
+            char[] board = BoardCreation();
+        }
+
+        private static char[] BoardCreation()
+        {
+            throw new NotImplementedException();
         }
     }
 }
